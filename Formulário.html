@@ -10,16 +10,22 @@
 
 <body>
     <form action="" method="post" id="login" class="form__dados">
-        <h2>Preencha seus dados</h2>
+        <h2>Cadastre aqui uma nova atração turística!</h2>
         <p>
-            <label for="email">Email:</label>
-            <input type="email" id="email"  class="componente" placeholder="Ex: joaodasilva@outlook.com"
+            <label for="type">Nome da Atração:</label>
+            <input type="text" id="Atração"  class="componente" placeholder="Ex: Avenida Paulista"
             required>
         </p>
         <p>
 
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" class="componente" placeholder="Ex: 123456abcd" re>
+            <label for="type">Descrição da atração:</label>
+            <input type="text" id="text" class="componente" 
+            placeholder="Ex: Avenida situada na cidade de São Paulo..." required>
+        </p>
+        <p>
+            <label for="type">Anexar fotos da atração:</label>
+            <input type="file" id="image" 
+            class="componente" placeholder="Ex: Avenida situada na cidade de São Paulo..." re>
         </p>
         <p>
             <button type="submit" class="botao__enviar">Enviar</button>
