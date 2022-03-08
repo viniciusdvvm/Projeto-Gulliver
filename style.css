@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+.form__dados{    
+    margin: 10px auto;
+    width: 500px;
+    height: 400px;
+    }
+
+h2 {
+    font-size: 40px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #ffc7b8;
+    color: #ff7b7b;
+}
+
+   p {
+       margin: 10px 0;
+   }
+
+   label {
+       font-size: 20px;
+       font-weight: 900;
+   }
+   .componente {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+   }
+
+   .botao__enviar{
+       padding: 5px 40px;
+       border-radius: 10px;
+       transition: all 1s;
+       background-color: white;
+       text-transform: uppercase;
+       color: #ffc7b8;
+       background-color: #ff7b7b;
+       border: 1px solid #ffc7b8;
+       float: right;
+   }
+
+   .botao__enviar:hover {
+color: #ff7b7b;
+background-color: #ffc7b8;
+cursor: pointer;
+   }
